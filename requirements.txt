@@ -1,0 +1,12 @@
+
+httpx
+loguru
+PyYAML
+requests
+uvicorn
+fastapi
+pydantic
+fastapi-cache2
+python-multipart
+whatsapp-chatbot-python
+

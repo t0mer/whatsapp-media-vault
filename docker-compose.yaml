@@ -1,0 +1,12 @@
+services:
+  whatsapp-media-vault:
+  container_name: whatsapp-media-vault
+    image: techblog/whatsapp-media-vault:latest
+    ports:
+      - "7020:7020"
+    environment:
+      - GREEN_API_INSTANCE=${GREEN_API_INSTANCE}
+      - GREEN_API_TOKEN=${GREEN_API_TOKEN}
+    volumes:
+      - ./whatsapp-media/vault:/app/vault
+    restart: unless-stopped 
