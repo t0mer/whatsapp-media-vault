@@ -95,7 +95,7 @@ async def read_root(request: Request):
 # Asynchronous wrapper to run the FastAPI server
 async def start_fastapi():
     logger.debug("Starting Web Server")
-    config = uvicorn.Config(app, host="0.0.0.0", port=7021, log_level="info")
+    config = uvicorn.Config(app, host="0.0.0.0", port=7020, log_level="info")
     server = uvicorn.Server(config)
     await server.serve()
 
