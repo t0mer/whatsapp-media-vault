@@ -1,0 +1,6 @@
+chats:
+  GroupName: 
+    media_path: Path_to_save_content
+    chat_ids:
+      - 97200000000000011111111@g.us
+      - 97200000000000011111111@c.us
