@@ -56,7 +56,7 @@ Before proceeding with the setup, ensure that you have the following:
 
 > **Important:** Do not configure a webhook URL for your instance, as this will interfere with the bot’s functionality.
 >
-> ![Green API webhook](screenshots/green-api-webhook.png)
+> ![Green API webhook](https://raw.githubusercontent.com/t0mer/whatsapp-media-vault/main/screenshots/green-api-webhook.png)
 
 ### 2. Environment Configuration
 
@@ -126,7 +126,7 @@ In order to get the list of groups, enter the following URL: http://[server_ip]:
 
 The web page will contain a table with the list of contacts and group:
 
-![Contacts and Groups](screenshots/greenapi-contacts.png)
+![Contacts and Groups](https://raw.githubusercontent.com/t0mer/whatsapp-media-vault/main/screenshots/greenapi-contacts.png)
 
 > **⚠️ IMPORTANT ⚠️**: After updating the config file, restart the container to reload the configuration
 
